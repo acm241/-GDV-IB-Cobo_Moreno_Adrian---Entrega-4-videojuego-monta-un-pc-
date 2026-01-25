@@ -1,0 +1,9 @@
+{
+	"name": "TextoCPU",
+	"plugin-id": "TextBox",
+	"sid": 762222612102599,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

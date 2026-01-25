@@ -1,0 +1,9 @@
+{
+	"name": "TextoPlacaBase",
+	"plugin-id": "TextBox",
+	"sid": 969788134670580,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

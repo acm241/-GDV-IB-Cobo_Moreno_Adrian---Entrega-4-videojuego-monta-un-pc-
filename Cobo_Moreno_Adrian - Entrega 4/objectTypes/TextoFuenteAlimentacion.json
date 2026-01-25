@@ -1,0 +1,9 @@
+{
+	"name": "TextoFuenteAlimentacion",
+	"plugin-id": "TextBox",
+	"sid": 753935489652260,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

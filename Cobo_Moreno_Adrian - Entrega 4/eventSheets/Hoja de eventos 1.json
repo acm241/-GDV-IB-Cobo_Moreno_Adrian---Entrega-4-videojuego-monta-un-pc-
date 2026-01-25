@@ -1,0 +1,390 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite5",
+					"sid": 765081151257748,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 496153559166526,
+					"parameters": {
+						"x": "Sprite8.X",
+						"y": "Sprite8.Y"
+					}
+				}
+			],
+			"sid": 578287083708083
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite5",
+					"sid": 920409619289209,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 401359419403841
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite6",
+					"sid": 844892948121457,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite6",
+					"sid": 747839473168504,
+					"parameters": {
+						"x": "Sprite9.X",
+						"y": "Sprite9.Y"
+					}
+				}
+			],
+			"sid": 602968341589959
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite6",
+					"sid": 583960945935274,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 864695385462708
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite2",
+					"sid": 776946539076858,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite2",
+					"sid": 418855070583836,
+					"parameters": {
+						"x": "Sprite10.X",
+						"y": "Sprite10.Y"
+					}
+				}
+			],
+			"sid": 421262768536525
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite2",
+					"sid": 931005674565970,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 978610059555656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite3",
+					"sid": 827495181627239,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite3",
+					"sid": 317361950425123,
+					"parameters": {
+						"x": "Sprite11.X",
+						"y": "Sprite11.Y"
+					}
+				}
+			],
+			"sid": 118903540827935
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite3",
+					"sid": 266722390215651,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 755569956010209
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite7",
+					"sid": 886309402881875,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite7",
+					"sid": 875908946085817,
+					"parameters": {
+						"x": "Sprite12.X",
+						"y": "Sprite12.Y"
+					}
+				}
+			],
+			"sid": 126409057222270
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite7",
+					"sid": 567937883439359,
+					"parameters": {
+						"object": "Sprite12"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 846740031678089
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite4",
+					"sid": 985720526365712,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite4",
+					"sid": 147561146569546,
+					"parameters": {
+						"x": "Sprite13.X",
+						"y": "Sprite13.Y"
+					}
+				}
+			],
+			"sid": 887463506645591
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite4",
+					"sid": 783060522894170,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 481784440220595
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextoCPU",
+					"sid": 124925785107348,
+					"parameters": {
+						"text": "\"CPU\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite2",
+					"sid": 549242423658653,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 966968523520516
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextoDisipador",
+					"sid": 819600512931611,
+					"parameters": {
+						"text": "\"Disipador\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite3",
+					"sid": 872788192888648,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 197193686687105
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextoPlacaBase",
+					"sid": 855907273575199,
+					"parameters": {
+						"text": "\"Placa base\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite5",
+					"sid": 483444528537358,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 400845377326857
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextoFuenteAlimentacion",
+					"sid": 127854054397263,
+					"parameters": {
+						"text": "\"Fuente de alimentación\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite6",
+					"sid": 407572132300188,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 651956330979974
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextoGrafica",
+					"sid": 301532137945176,
+					"parameters": {
+						"text": "\"Tarjeta gráfica\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite4",
+					"sid": 624261316098563,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 604293154648823
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextoRam",
+					"sid": 786306423940528,
+					"parameters": {
+						"text": "\"Memoria RAM\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite7",
+					"sid": 865144086423006,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 618141351016110
+		}
+	],
+	"sid": 469335417951707
+}
